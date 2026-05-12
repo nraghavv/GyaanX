@@ -5,6 +5,7 @@ export interface Answer {
   finalAnswer: string;
   explanation: string;
   aim?: string;
+  theory?: string;
   algorithm?: string[];
   code?: string;
   input?: string;
