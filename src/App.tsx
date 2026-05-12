@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { Analytics } from "@vercel/analytics/react";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
@@ -55,6 +56,7 @@ export default function App() {
             </Routes>
           </PageWrapper>
         </main>
+        <Analytics />
       </div>
     </Router>
   );
